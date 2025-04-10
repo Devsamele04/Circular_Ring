@@ -5,7 +5,7 @@ import { useFrame } from "@react-three/fiber";
 
 const Cyl = () => {
   
-  let tex = useTexture("/adv.jpg");
+  let tex = useTexture("/ribn.png");
   let Cyl = useRef(null);
   useFrame((state, deleta) => {
     Cyl.current.rotation.y += deleta;

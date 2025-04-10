@@ -13,7 +13,7 @@ const App = () => {
   return (
     <>
       <div className="absolute uppercase left-[37%] top-[3%]">
-        <h1 className=" text-white text-4xl text-center">
+        <h1 className=" text-white text-4xl text-center font-bold">
           Welcome to my Page.
         </h1>
       </div>
